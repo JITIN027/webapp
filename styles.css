@@ -10,5 +10,6 @@
   color: #292b29;
 }
 .first-line{
-  background-color: blue;
+  background: linear-gradient(to left, red, blue);
+  height: 3px;
 }
