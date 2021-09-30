@@ -1,6 +1,26 @@
+.link-bar{
+  background-color: #efefef;
+  color: #877873;
+  padding-top:0.10%;
+  padding-bottom:auto;
+  padding-left:3.2%;
+
+}
+.footer-icon{
+  padding-left: 2%;
+  padding-right:2.5%;
+}
+.wlcm{
+  text-align: left;
+}
+.icons{
+  margin-left: 70%;
+}
 #navmenu{
   background-color: white;
 }
+
+
 .logo-img{
   height: 60px;
   width: 275px;
@@ -26,24 +46,42 @@
   height: 600px;
 }
 #visionmissiontrust{
-  background-color: #f0f2f0;
+  background-color: white;
 }
 .hito-cards{
   padding: 5%;
 }
 .card-header{
   text-align: center;
-  background-color: grey;
+
 }
 .cardhito{
-  margin-left: 3%;
-  margin-right: 3.5%;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 5%;
   margin-top: 3%
 }
-.mission-img{
-  width: 250px;
-  height:200px;
+.mission{
+  width:250px;
+  height: 200px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 3%;
+  margin-top: 1%;
+}
+.vision{
+  width:200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+  margin-top: 1%;
+}
+.header-text{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.card-text{
+  font-size: 20px;
 }
