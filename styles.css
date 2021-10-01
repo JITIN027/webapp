@@ -1,6 +1,6 @@
 .link-bar{
   background-color: #efefef;
-  color: #877873;
+  color: rgb(39, 39, 39);
   padding-top:0.10%;
   padding-bottom:auto;
   padding-left:3.2%;
@@ -12,9 +12,10 @@
 }
 .wlcm{
   text-align: left;
+  font-family: 'Ubuntu', sans-serif;
 }
 .icons{
-  margin-left: 70%;
+  margin-left: 65%;
 }
 #navmenu{
   background-color: white;
@@ -62,7 +63,7 @@
   margin-top: 3%
 }
 .mission{
-  width:250px;
+  width:280px;
   height: 200px;
   margin-left: auto;
   margin-right: auto;
@@ -81,6 +82,7 @@
   text-align: center;
   font-size: 40px;
   font-family: 'Ubuntu', sans-serif;
+  color: black;
 }
 .card-text{
   font-size: 20px;
