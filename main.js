@@ -1,0 +1,24 @@
+jQuery(document).ready(function($){
+"use strict";
+$('#customers-testimonials').owlCarousel({
+    loop:true,
+    center:true,
+    items:3,
+    margin:0,
+    autoplay:true,
+    dots:true,
+    autoplayTimeout:4000,
+    smartSpeed:450,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1200:{
+            items:3
+        }
+    }
+});
+});

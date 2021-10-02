@@ -59,7 +59,6 @@
 .cardhito{
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 5%;
   margin-top: 3%
 }
 .mission{
@@ -86,4 +85,107 @@
 }
 .card-text{
   font-size: 20px;
+}
+
+
+
+
+
+.entire{
+  padding:5em 0em;
+  background-image: url("images/owl-carousel-bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  margin:5%;
+}
+.shadow-effect{
+  background: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  border:1px solid #ececec;
+  box-shadow:0 19px 38px rgba(255,255,255,0.08), 0 15px 12px rgba(255,255,255,0.08);
+
+}
+.content{
+  line-height: 1.5;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.content-heading{
+  color:#68a1cc;
+  font-family: 'Ubuntu', sans-serif;
+
+
+}
+#customers-testimonials .item{
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 20px;
+  opacity: 0.8;
+  -webkit-transform: scale3d(0.8,0.8,1);
+  transform: scale3d(0.8,0.8,1);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+
+}
+#customers-testimonials .owl-item.active.center .item{
+  opacity: 1;
+  -webkit-transform: scale3d(1,1,1);
+  transform: scale3d(1,1,1);
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
+#customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span{
+  background-color: #fff;
+  transform: translate3d(0px, -50%, 0px) scale(0.7);
+}
+#customers-testimonials.owl-carousel .owl-dots{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot{
+  display: inline-block;
+}
+#customers-testimonials.owl-carousel .owl-dots span{
+  background-color: #fff;
+  display: inline-block;
+  height: 20px;
+  margin: 0px 2px 5px;
+  transform: translate3d(0px, -50%, 0px) scale(0.3);
+  transform-origin: 50% 50% 0;
+  transition: all 250ms ease-out 0s;
+  width: 20px;
+}
+
+
+
+
+
+
+.iconic-project{
+  background-image: url("images/iconic-project-img.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+.transbox{
+  margin-right: 50%;
+  background-color: white;
+  opacity:0.8;
+}
+.iconic-heading{
+  padding:5% 5% 0 ;
+  text-align: center;
+}
+.iconic-content{
+  padding:3% 10% 10%;
+  text-align: center;
+  line-height: 2;
+  font-weight: bold;
 }
