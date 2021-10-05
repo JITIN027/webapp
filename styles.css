@@ -49,6 +49,12 @@
 #visionmissiontrust{
   background-color: white;
 }
+.header-owlcarosel{
+  color:#68a1cc;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+
+}
 .hito-cards{
   padding: 5%;
 }
@@ -163,13 +169,18 @@
 
 
 
-
+.header-iconicproject{
+  color: #68a1cc;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
 
 .iconic-project{
   background-image: url("images/iconic-project-bg.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
+  margin-top: 5%;
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 5%;
@@ -189,3 +200,10 @@
   line-height: 2;
   font-weight: bold;
 }
+
+
+
+
+
+
+
